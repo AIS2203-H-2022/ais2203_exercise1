@@ -4,7 +4,7 @@
 
 Clone this repository by using the link provided by clicking the green Code button above. You have the choice between HTTPS and SSH. Please choose SSH. If you have not already configured SSH, please do so. See this [link](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
 
-IMO, the easiest way to clone a repository is using the command line. Open a command prompt with the current directory set to the directory you want the project to appear in and type `git clone` followed by the repository link. I.e., `git clone git@github.com:AIS2203-H-2022/ais2203_exercise1.git`.
+IMO, the easiest way to clone a repository is using the command line. Open a command prompt with the current directory set to the directory you want the project to appear in and type `git clone` followed by the repository link.
 
 The aim of this exercise is to get you comfortable with creating a CMake based C++ project and pushing it to GitHub. Once you have cloned this repository to your local development PC, you should add a `.gitignore` file to the project. This file needs to be placed in the root folder of the project. I.e., the same folder as this `README.md` file. The purpose of the `.gitignore` file is to let git know which files should not be versioned-controlled by git. Files you don't want to be versioned-controlled are typically:
 * Large binaries
@@ -74,7 +74,11 @@ The function should simply print a message to the console that prints a greeting
 The function should live in a seperate file to the `person` class.
 
 ### Step 3
-Create a `main.cpp` file that contains the code to instantiate a `person` object and subsequently calls the `greet` function.
+Create a `main.cpp` file that contains the code to instantiate several `person` objects. These objects should be stored in a container.
+For each object in the container, call `greet` function you made, providing a different person object for each invocation.
 
 ### Step 4
 If you have not already, tell CMake about the files you have created so that you are able to run the code.
+
+### Step 5
+Add and commit your changes to git. Then push your changes to github for a friendly review.
