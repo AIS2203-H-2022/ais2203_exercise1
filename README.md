@@ -24,7 +24,7 @@ cmake-build*  # ignores CLion genereated build folders
 In order for you to be able to open this (pretty much empty) project in CLion, a barebone `CMakeLists.txt` has already been added. It's missing targets and source files though. It's up to you to add these.
 
 
-There is no establised _correct_ way of setting up a CMake based C/C++ project. However, common sense is still useful. That is; you want the structure to be logical both for yourself and others that would get the pleasure of looking at your work. What you typically want to have is a folder structure like this:
+There is no establised _correct_ way of setting up a CMake based C/C++ project. However, common sense is still useful. That is; you want the structure to be logical both for yourself and others that would get the pleasure of looking at your work. What you typically want is to have a folder structure like this:
 
 ```
 README.md
@@ -62,16 +62,18 @@ Create a class `person` with the following attributes:
 * First name
 * Last name
 
-Make use of encapsulation. When using encapsulation, we want access to be as strict as possible. I.e, do we need to add setter function to this class?
+Make use of encapsulation. When using encapsulation, we want access to be as strict as possible. I.e, do we need to add setter function to this class (in order to follow the requirements)?
 
-The class should define a function that returns the persons full name.
+Adittionaly, the class should define a function that returns the persons full name.
 
 #### Step 2
 
-Create a free function greet that accepts an instance of a `person`.
+Create a free function `greet` that accepts an instance of a `person`.
 The function should simply print a message to the console that prints a greeting and the name of the person passed to it.
+The function should live in a seperate file to the `person` class.
 
+### Step 3
+Create a `main.cpp` file that contains the code to instantiate a `person` object and subsequently calls the `greet` function.
 
-
-
-
+### Step 4
+If you have not already, tell CMake about the files you have created so that you are able to run the code.
