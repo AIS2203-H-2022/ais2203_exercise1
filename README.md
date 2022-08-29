@@ -89,7 +89,13 @@ Create a `main.cpp` file that contains the code to instantiate several `person` 
 For each object in the container, call `greet` function you made, providing a different person object for each invocation.
 
 ### Step 4
-If you have not already, tell CMake about the files you have created so that you are able to run the code.
+If you have not already, tell CMake about the files you have created so that you are able to run the code. Hint: You will need to use at least use the `add_executable` [CMake function](https://cmake.org/cmake/help/latest/command/add_executable.html).
 
 ### Step 5
 Add and commit your changes to git. Then push your changes to GitHub for a friendly review.
+Try using CLion to do this. It is also possible to use the terminal:
+```
+git add --all
+git commmit -m 'Implemeted ais_2203_exercise1'
+git push -u origin main
+```
