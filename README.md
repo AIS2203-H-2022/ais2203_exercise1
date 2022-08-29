@@ -46,7 +46,7 @@ data
 ```
 
 It might look a little bit different depending on if you are developing a library, a header-only library and/or an application. 
-The overall goal is to keep the project structured in a sensiable way.
+The overall goal is to keep the project structured in a sensible way.
 
 Some examples: <br>
 https://github.com/open-simulation-platform/libcosim (library) <br>
@@ -62,7 +62,8 @@ Create a class `person` with the following attributes:
 * First name
 * Last name
 
-Make use of encapsulation. When using encapsulation, we want access to be as strict as possible. I.e, do we need to add setter function to this class (in order to follow the requirements)?
+Make use of encapsulation. When using encapsulation, we want access to be as strict as possible. 
+I.e, do we need to add setter function to this class (in order to follow the requirements)?
 
 Adittionaly, the class should define a function that returns the persons full name.
 
