@@ -21,10 +21,10 @@ cmake-build*  # ignores CLion genereated build folders
 .idea         # ignore user specific CLion settings
 ```
 
-In order for you to be able to open this (pretty much empty) project in CLion, a barebone `CMakeLists.txt` has already been added. It's missing targets and source files though. It's up to you to add these.
+In order for you to be able to open this (pretty much empty) project in CLion, a bare-bone `CMakeLists.txt` has already been added. It's missing targets and source files though. It's up to you to add these.
 
 
-There is no establised _correct_ way of setting up a CMake based C/C++ project. However, common sense is still useful. That is; you want the structure to be logical both for yourself and others that would get the pleasure of looking at your work. What you typically want is to have a folder structure like this:
+There is no established _correct_ way of setting up a CMake based C/C++ project. However, common sense is still useful. That is; you want the structure to be logical both for yourself and others that would get the pleasure of looking at your work. What you typically want is to have a folder structure like this:
 
 ```
 README.md
@@ -65,7 +65,7 @@ Create a class `person` with the following attributes:
 Make use of encapsulation. When using encapsulation, we want access to be as strict as possible. 
 I.e, do we need to add setter function to this class (in order to follow the requirements)?
 
-Adittionaly, the class should define a function that returns the persons full name.
+Additionally, the class should define a function that returns the persons full name.
 
 #### Step 2
 
@@ -81,4 +81,4 @@ For each object in the container, call `greet` function you made, providing a di
 If you have not already, tell CMake about the files you have created so that you are able to run the code.
 
 ### Step 5
-Add and commit your changes to git. Then push your changes to github for a friendly review.
+Add and commit your changes to git. Then push your changes to GitHub for a friendly review.
