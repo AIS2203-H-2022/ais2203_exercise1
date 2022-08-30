@@ -111,5 +111,5 @@ Try using CLions Git context to do this. It is also possible to use the terminal
 # with the projects root directory as current directory
 git add --all
 git commmit -m 'Implemeted ais_2203_exercise1'
-git push -u origin main
+git push
 ```
