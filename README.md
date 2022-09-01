@@ -28,9 +28,12 @@ It's just easier to do it right from the get-go.
 For this exercise, the `.gitignore` could include something like this:
 
 ```
-build         # typical folder name in case we build on the command-line
-cmake-build*  # ignores CLion genereated build folders
-.idea         # ignore user specific CLion settings
+# typical folder name in case we build on the command-line
+build    
+# ignores CLion genereated build folders
+cmake-build*  
+# ignore user specific CLion settings
+.idea         
 ```
 
 In order for you to be able to open this (pretty much empty) project in CLion, a bare-bone `CMakeLists.txt` has already been added. 
