@@ -5,4 +5,3 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(exercise1 main.cpp)
 target_include_directories(exercise1 PUBLIC "${CMAKE_SOURCE_DIR}/include")
-

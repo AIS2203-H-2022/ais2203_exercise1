@@ -9,7 +9,7 @@
 
 #include "person.hpp"
 
-void greet(const person& p) {
+void greet(const person &p) {
   std::cout << "Hello, " << p.fullName() << "!" << std::endl;
 }
 

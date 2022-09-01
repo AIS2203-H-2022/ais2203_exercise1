@@ -17,10 +17,6 @@ public:
 
   std::string lastName() const { return lastName_; }
 
-  void setFirstName(const std::string &firstName) {
-    firstName_ = firstName;
-  }
-
   std::string fullName() const { return firstName_ + " " + lastName_; }
 
 private:
