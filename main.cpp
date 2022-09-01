@@ -3,6 +3,7 @@
 #include "exercise/person.hpp"
 
 #include <vector>
+#include <iostream>
 
 int main() {
 
@@ -19,6 +20,8 @@ int main() {
   std::vector<person> persons{p1, p2, p3, p4}; // initializer-list
   persons.emplace_back(p5);                    // append one
   persons.push_back(p6);                       // also append one
+
+ std::cout << "";
 
   for (const auto &person : persons) {
     greet(person);

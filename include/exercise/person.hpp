@@ -10,18 +10,13 @@
 class person {
 
 public:
-  person(const std::string &fname, const std::string &lname)
-      : firstName_(fname), lastName_(lname) {}
+  person(const std::string &fname, const std::string &lname);
 
-  std::string firstName() const { return firstName_; }
+  std::string firstName() const;
 
-  std::string lastName() const { return lastName_; }
+  std::string lastName() const;
 
-  void setFirstName(const std::string &firstName) {
-    firstName_ = firstName;
-  }
-
-  std::string fullName() const { return firstName_ + " " + lastName_; }
+  std::string fullName() const;
 
 private:
   std::string firstName_;

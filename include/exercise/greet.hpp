@@ -5,12 +5,8 @@
 #ifndef EXERCISE1_GREET_HPP
 #define EXERCISE1_GREET_HPP
 
-#include <iostream>
-
 #include "person.hpp"
 
-void greet(const person& p) {
-  std::cout << "Hello, " << p.fullName() << "!" << std::endl;
-}
+void greet(const person& p);
 
 #endif // EXERCISE1_GREET_HPP

@@ -3,6 +3,8 @@ project(exercise1)
 
 set(CMAKE_CXX_STANDARD 17)
 
+add_subdirectory(src)
+
 add_executable(exercise1 main.cpp)
-target_include_directories(exercise1 PUBLIC "${CMAKE_SOURCE_DIR}/include")
+target_link_libraries(exercise1 PUBLIC personlib)
 
