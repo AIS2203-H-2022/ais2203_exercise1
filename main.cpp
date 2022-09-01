@@ -2,8 +2,8 @@
 #include "exercise/greet.hpp"
 #include "exercise/person.hpp"
 
-#include <vector>
 #include <iostream>
+#include <vector>
 
 int main() {
 
@@ -21,9 +21,8 @@ int main() {
   persons.emplace_back(p5);                    // append one
   persons.push_back(p6);                       // also append one
 
- std::cout << "";
-
   for (const auto &person : persons) {
     greet(person);
   }
+
 }

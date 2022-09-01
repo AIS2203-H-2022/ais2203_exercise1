@@ -7,4 +7,3 @@ add_subdirectory(src)
 
 add_executable(exercise1 main.cpp)
 target_link_libraries(exercise1 PUBLIC personlib)
-
